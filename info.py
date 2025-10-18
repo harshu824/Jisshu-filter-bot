@@ -38,11 +38,11 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL     = int(environ.get("AUTH_CHANNEL", "-1003126625154"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1003126625154"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL") or "-1003126625154")
-LOG_CHANNEL      = int(environ.get("LOG_CHANNEL", "-1002959877818"))
-LOG_API_CHANNEL  = int(environ.get("LOG_API_CHANNEL", "-1003126625154"))
-LOG_VR_CHANNEL   = int(environ.get("LOG_VR_CHANNEL", "-1003126625154"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002959877818"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1003126625154"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1003126625154"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://tgugoblin_db_user:Harshu1@harshu1.er5ctcy.mongodb.net/?retryWrites=true&w=majority&appName=Harshu1")
